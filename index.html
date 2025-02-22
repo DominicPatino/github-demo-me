@@ -1,18 +1,137 @@
 <!DOCTYPE html>
-<html lange="en">
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Digital Resume</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
 
-    <meta charset = "UTF-8">
-    <meta name="viewport" content="width=device-width, initial-xcale=1.0">
-    <link rel="stylesheet" href="main.css">
-    <title>Document</title>
+        body {
+            line-height: 1.6;
+            color: #333;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
 
+        header {
+            text-align: center;
+            padding: 50px 0;
+            background-color: #f5f5f5;
+            margin-bottom: 30px;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .section {
+            margin-bottom: 40px;
+            padding: 20px;
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            color: #2c3e50;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+
+        .skills-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .skill {
+            background-color: #3498db;
+            color: white;
+            padding: 5px 15px;
+            border-radius: 15px;
+            font-size: 0.9em;
+        }
+
+        .experience-item, .education-item {
+            margin-bottom: 20px;
+        }
+
+        .experience-item h3, .education-item h3 {
+            color: #2c3e50;
+        }
+
+        .date {
+            color: #7f8c8d;
+            font-style: italic;
+        }
+    </style>
 </head>
 <body>
-    
-    <h1> Dominic Paper</h1>
-    <p> Who even am I.</p>
+    <header>
+        <h1>Your Name</h1>
+        <p>Your Title / Professional Role</p>
+    </header>
 
+    <div class="section" id="executive-summary">
+        <h2>Executive Summary</h2>
+        <p>A brief, compelling summary of your professional background and career objectives. Highlight your key strengths and what makes you unique.</p>
+    </div>
+
+    <div class="section" id="about">
+        <h2>About</h2>
+        <p>Share your professional story, values, and what drives you. Include relevant personal interests that might add value to your professional profile.</p>
+    </div>
+
+    <div class="section" id="experience">
+        <h2>Experience</h2>
+        <div class="experience-item">
+            <h3>Job Title</h3>
+            <p class="date">Company Name | January 2020 - Present</p>
+            <ul>
+                <li>Key achievement or responsibility</li>
+                <li>Key achievement or responsibility</li>
+                <li>Key achievement or responsibility</li>
+            </ul>
+        </div>
+        <div class="experience-item">
+            <h3>Previous Job Title</h3>
+            <p class="date">Previous Company | January 2018 - December 2019</p>
+            <ul>
+                <li>Key achievement or responsibility</li>
+                <li>Key achievement or responsibility</li>
+                <li>Key achievement or responsibility</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="section" id="education">
+        <h2>Education</h2>
+        <div class="education-item">
+            <h3>Degree Name</h3>
+            <p class="date">University Name | Graduation Year</p>
+            <p>Additional details about your education, honors, relevant coursework, etc.</p>
+        </div>
+    </div>
+
+    <div class="section" id="skills">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <span class="skill">Skill 1</span>
+            <span class="skill">Skill 2</span>
+            <span class="skill">Skill 3</span>
+            <span class="skill">Skill 4</span>
+            <span class="skill">Skill 5</span>
+            <span class="skill">Skill 6</span>
+        </div>
+    </div>
 </body>
-
 </html>
