@@ -21,12 +21,26 @@
         }
 
         header {
-            text-align: center;
-            padding: 50px 0;
-            background-color: #f5f5f5;
-            margin-bottom: 30px;
-        }
+        display: flex;
+        align-items: center;
+        gap: 40px;
+        text-align: left;
+        padding: 50px;
+        background-color: #f5f5f5;
+        margin-bottom: 30px;
+    }
 
+    .header-content {
+        flex: 1;
+    }
+
+    .header-image {
+        width: 300px;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 8px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
         h1 {
             font-size: 2.5em;
             margin-bottom: 10px;
@@ -73,13 +87,22 @@
             color: #7f8c8d;
             font-style: italic;
         }
+
     </style>
+
+ 
 </head>
 <body>
     <header>
-        <h1>Dominic Patino</h1>
-        <p>Mississippi State / Electrical Engineer</p>
+        <div class="header-content">
+            <h1>Dominic Patino</h1>
+            <p>Mississippi State / Electrical Engineer</p>
+        </div>
+        <img src="C:\Users\domin\Downloads\the image.jpg" 
+             alt="Electrical Engineering" 
+             class="header-image">
     </header>
+   
 
     <div class="section" id="executive-summary">
         <h2>Summary</h2>
@@ -111,6 +134,14 @@
                 <li>Learned to use AutoCAD and Excel</li>
                 <li>Edited and updated engineering documents/schematics</li>
             </ul>
+            <div class="experience-item">
+                <h3>Previous Job Title</h3>
+                <p class="date">Hospital Shadow | December 2022 - February 2023</p>
+                <ul>
+                    <li>Shadowed doctors of various fields</li>
+                    <li>Assisted in minor surgeries and diagnosis</li>
+                    <li>Assisted doctor when asked or needed</li>
+                </ul>
         </div>
     </div>
 
