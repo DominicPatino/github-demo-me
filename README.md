@@ -1,0 +1,1 @@
+This README has been created to explain what is present in the contents of this page. Include is an html file, a css file, and a .md file. The html file is the primary subject of this page and contains the code that I used to build a resume. The resume is mostly simplistic in nature, but it gets the point across.
